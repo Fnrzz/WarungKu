@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+section {
+  padding-top: 5rem;
+}
+footer {
+  padding-top: 3rem;
+  background-color: #300030;
+}
+footer h5 {
+  color: white;
+}
+
+/* About we */
+
+#about .card {
+  width: 18rem;
+  border-radius: 10px;
+}
+#about .card .card-img-top {
+  border-radius: 10px;
+}
+/* About we */
+
+/* Menu */
+#menu h1 {
+  color: white;
+}
+#menu p {
+  color: white;
+}
+#menu .card {
+  width: 300px;
+}
+#coffe h5 {
+  color: white;
+}
+#coffe .card {
+  border-radius: 10px;
+}
+#coffe .card-img-top {
+  border-radius: 10px;
+}
+#snack h5 {
+  color: white;
+}
+#milkshake h5 {
+  color: white;
+}
+/* Akhir Menu */
+
+/* Kontak */
+#kontak .card {
+  width: 600px;
+}
+/* Akhir Kontak */
+
+/* Style Hp */
+@media screen and (max-width: 994px) {
+  /* navbar */
+  .navbar-nav {
+    text-align: center;
+  }
+  /* akhir navbar */
+
+  /* slidebar */
+  #slidebar .carousel-caption {
+    font-size: 10px !important;
+  }
+  /* akhir slidebar */
+
+  /* About we */
+  #about .card .card-img-top {
+    width: 150px;
+  }
+  #about .card {
+    width: 150px;
+  }
+  /* Akhir About we */
+
+  /* menu */
+  #menu .card {
+    width: 150px;
+  }
+  #coffe p {
+    font-size: 10px;
+  }
+  #snack p {
+    font-size: 10px;
+  }
+  #milkshake p {
+    font-size: 10px;
+  }
+  /* Akhir Menu */
+
+  /* kontak */
+  #kontak .card {
+    width: 150px;
+  }
+}
