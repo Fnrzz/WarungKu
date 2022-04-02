@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+section {
+  padding-top: 5rem;
+}
+footer {
+  padding-top: 3rem;
+  background-color: #300030;
+}
+footer h5 {
+  color: white;
+}
+
+/* Jumbotron */
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #601848;
+}
+.jumbotron h1 {
+  color: white;
+}
+/* Akhir Jumbotron */
+
+/* Penjelasan */
+#penjelasan .card {
+  width: 30rem;
+  margin: auto;
+}
+#penjelasan h4 {
+  margin-top: 5rem;
+}
+/* Akhir Penjelasan */
+
+/* Menu */
+#menu .card {
+  width: 18rem;
+  margin: auto;
+}
+/* Akhir Menu */
+
+@media screen and (max-width: 994px) {
+  /* penjelasan */
+  #penjelasan .card {
+    width: 18rem;
+  }
+  #penjelasan h4 {
+    margin-top: 3rem;
+  }
+  /* Akhir penjelasan */
+
+  /* Menu */
+  #menu .card {
+    width: 150px;
+    border-radius: 10px;
+  }
+  #menu .card img {
+    border-radius: 10px;
+  }
+  #menu .card p {
+    font-size: 10px;
+  }
+  #menu .card button {
+    font-size: 10px;
+  }
+  /* Akhir Menu */
+}
